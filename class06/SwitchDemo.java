@@ -29,11 +29,22 @@ public class SwitchDemo {
 			message="Entered browser is not supported";
 		}
 		System.out.println(message);
-		
+		//switch case cannot use relational or logical operators
+				//switch cannot work with double, float, long
+				
+				float f=10.99f;
+				double d=19.90;
+				long l=19099;
+				boolean b=true;
+				
+//				switch(l) { CE:Cannot switch on a value of type long.
+//				}
+			}
+		}
 		
 
 		
 		
-	}
+	
 
-}
+

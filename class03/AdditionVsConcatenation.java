@@ -8,8 +8,11 @@ public class AdditionVsConcatenation {
 		int b=200;
 		String x=" Hello ";
 		String y="Friends ";
-		System.out.println(x+y+a+b);
-		System.out.println(a+b+x+y);
+		System.out.println(a+b+x+y);//300HelloFriends
+		System.out.println(a+x+b+y);//100Hello200Friends
+		System.out.println(x+y+a+b);//HelloFriends100200
+		System.out.println(x+y+(a+b));//HelloFriends300
+		
 		
 
 	}

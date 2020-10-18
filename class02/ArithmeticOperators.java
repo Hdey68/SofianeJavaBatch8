@@ -1,14 +1,9 @@
-package com.syntax.class01;
+package com.syntax.class02;
 
-public class DataTypesAndVariables {
+public class ArithmeticOperators {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//primitive datatypes
-		//numeric
-		//type name=assign value
-		
-	
 		byte variable1=127;//-128 to 127
 		short variable2=32767;//-32768 to 32767
 		int anyName=32767676;
@@ -23,11 +18,12 @@ public class DataTypesAndVariables {
 		boolean anotherVariable=false;
 
 		//to represent single character	
-		
 		char myBox='C';
 		char myBox2='&';
 		char mybox3='7';
 		
 		System.out.println(myVariable);
+
 	}
+
 }
