@@ -16,7 +16,7 @@ public class Task4 {
 		String item;
 		int cost;
 		int money;
-
+        
 		input=new Scanner(System.in);
 		System.out.println("What would you like to buy?");
 		item=input.next();
@@ -27,20 +27,27 @@ public class Task4 {
 		System.out.println("Please pay the amount");
 		money=input.nextInt();
 		
-		while(money!=cost) {
-			if(money<cost) {
+		while(money==cost) {
+			System.out.println("Thank you for shopping!");
+			break;
+	    	} if(money<cost) {
 				System.out.println("Please add more money");
-				money=input.nextInt();
-			
-			}else if(money>cost) {
-				System.out.println("Please take your change of $"+(money-cost));
-		
-			}else {
+                money=input.nextInt();
+	           
 				System.out.println("Thank you for shopping!");
-				
-	
+		 
+		}else if(money>cost) {
+				System.out.println("Please take your change of $"+(money-cost));
+				System.out.println("Thank you for shopping!");
+			}
+	}
+}
+	    
 
-}
-}
-}	
-}
+				
+			
+	
+			
+
+	
+		
