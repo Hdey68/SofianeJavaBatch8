@@ -23,12 +23,12 @@ public class Task1Class2 {
 		char myBox2='%';
 		char myBox3='1';
 
-		System.out.println(variable1);
-		System.out.println(variable2);
-		System.out.println(anyName);
-		System.out.println(variable3);
-		System.out.println(var1);
-		System.out.println(var2);
+		//System.out.println(variable1);
+		//System.out.println(variable2);
+		//System.out.println(anyName);
+		//System.out.println(variable3);
+		//System.out.println(var1);
+		//System.out.println(var2);
 		System.out.println(myVariable);
 		System.out.println(anotherVariable);
 		System.out.println(myBox);

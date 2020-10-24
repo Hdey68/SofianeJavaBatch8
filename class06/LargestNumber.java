@@ -1,5 +1,7 @@
 package com.syntax.class06;
 
+import java.util.Scanner;
+
 public class LargestNumber {
 
 	public static void main(String[] args) {
