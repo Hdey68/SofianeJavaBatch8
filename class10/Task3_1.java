@@ -16,6 +16,12 @@ public class Task3_1 {
 		for(int i=0; i<animal.length; i++) {
 			System.out.print(animal[i]+" , ");
 		}
+		System.out.println();
+		System.out.println("---------------------another way---------");
+	
+	   for(String anml_name:animals) {
+		   System.out.print(anml_name+ ", ");
+	   }
 	}	
 	
 }		

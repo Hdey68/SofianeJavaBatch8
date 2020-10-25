@@ -11,15 +11,14 @@ public class Task3_2 {
 		
 		
 		Scanner input=new Scanner(System.in);
-		System.out.println("Enter five numbers");
+		System.out.println("Enter three numbers");
 		double num1=input.nextDouble();
 		double num2=input.nextDouble();
 		double num3=input.nextDouble();
-		double num4=input.nextDouble();
-		double num5=input.nextDouble();
+		
 		double sumNum=0;
 		
-		double[] num= {num1,num2,num3,num4,num5};
+		double[] num= {num1,num2,num3};
 		
 		for(int i=0; i<num.length; i++) {
 			sumNum+=num [i];
