@@ -7,11 +7,11 @@ public class Task {
 
         Scanner input=new Scanner(System.in);
         System.out.println("Enter a username");
-        String userName = input.next();
+        String userName = input.nextLine();
         System.out.println("Enter a password");
-        String password = input.next();
+        String password = input.nextLine();
 
-        if(userName.isEmpty() && password.isEmpty()){
+        if(userName.isEmpty() || password.isEmpty()){
             System.out.println("Username and Password should not be empty");
 
         }else if(password.length()<8){
