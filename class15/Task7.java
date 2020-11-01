@@ -9,7 +9,7 @@ public class Task7 {
 
        String string="Welcome to Syntax";
         Pattern p = Pattern.compile("\\s");
-        System.out.println("The original string is: " + string);
+        System.out.println(string);
         String[] temp = p.split(string);
         String rev = "";
         for (int i = 0; i < temp.length; i++) {
@@ -18,7 +18,7 @@ public class Task7 {
             else
                 rev = " " + temp[i] + rev;
         }
-        System.out.println("The reversed string is: " + rev);
+        System.out.println(rev);
     }
     }
     
