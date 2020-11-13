@@ -13,5 +13,7 @@ public class StudentTester {
         student4.printGradeAverage();
         Student student5 = new Student("Nabin", 100, 100, 92);
         student5.printGradeAverage();
+
+        Task1 task4 = new Task1();
     }
 }
