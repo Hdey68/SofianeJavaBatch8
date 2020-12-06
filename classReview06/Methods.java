@@ -1,4 +1,4 @@
-package com.syntax.classReview6;
+package com.syntax.classReview06;
 
 public class Methods {
     public static void main(String[] args) {

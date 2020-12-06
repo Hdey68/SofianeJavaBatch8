@@ -1,6 +1,4 @@
-package com.syntax.classReview6;
-
-import com.syntax.class29.PrintInfo;
+package com.syntax.classReview06;
 
 public class MethodsExample2 {
 

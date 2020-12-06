@@ -1,0 +1,62 @@
+Types of variables:
+There are 3 types of variables in java.
+1) Local
+2) Instance
+3) Static
+Local:
+Local variables are created in the methods,constructor or block of code.
+They are declared when we enter a block of code and are destroyed as soon as we
+left the block of code.
+Block of code:
+While loops
+for loops
+if conditions
+switch
+Important points
+1) We can not use the access modifiers with local variables.
+2) local variables are not initialized with default values they must be initialized
+before we can access them.
+When to use local variables.
+we should always try to use local variables because they are destroyed as soon as
+execution left the block of code that way we can utilize this memory for other
+purposes.
+
+Instance variables.
+are created inside the class but outside the method, block of code or constructor.
+They are called instance variables because they belong to the instance of class
+and they can have different values for all of the objects of that class
+Note:
+whenever we need to access something in multiple methods or constructor we should use instance
+variables but we should always write our logic in such a way to avoid instance variables
+because they stay in the memory as long as we have a reference to our object.
+Important:
+1)We can use the access modifiers with the instance variables i.e Private, Default,Protected,Public
+2)Instance variables have default values for boolean=false for double=0.0 for int=0 and for String=null
+Whenever we create an object of a class a separate memory location for instance
+variables is declared and we can store different different things in those location.
+of the objects
+
+Static:
+Static variables are class variables they are declared outside of method,
+constructor or block of code. we use static keyword to before specifying
+the type of variables.
+For static variables only one memory location is declared in the static area for all
+of the objects same memory location is used. These values are same for all objects.
+When to use?
+when we have something common for all objects
+when all the objects of the same class share a common info
+
+Important
+1)static variables are rarely used other than being declared
+as final
+2)static variables are stored in the static memory area
+3)Visibility is same as instance variables
+4)static fields and methods can be access by just specifying
+the name of the class and name of variable or method
+5) In static variables we define common values.
+==============================================================
+Java modifiers
+1) Access modifiers like private, default, protected and public
+2) Non-access modifiers like final,abstract,static,synchronized
+Access modifiers: these can be used to control the visibility of our instance/static variables/methods/
+
