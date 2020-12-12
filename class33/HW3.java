@@ -16,12 +16,12 @@ public class HW3 {
         bestBuy.put ( 1458790,"Monitor" );
         bestBuy.put ( 2366587,"Xbox" );
 
-        Set<Map.Entry<Integer,String>> set = bestBuy.entrySet();
-        Iterator<Map.Entry<Integer,String>> iterator = set.iterator();
+       // Set<Map.Entry<Integer,String>> set = bestBuy.entrySet();
+        Iterator<Map.Entry<Integer,String>> iterator = bestBuy.entrySet ().iterator();
 
         while (iterator.hasNext()){
-            Map.Entry<Integer,String> element=iterator.next();
-            System.out.println(element.getKey()+":"+element.getValue());
+            Map.Entry<Integer,String> next=iterator.next();
+            System.out.println(next.getKey()+":"+next.getValue());
 
     }
 }}///////////////////////////////////done/////////////////////////////////////////////////////////

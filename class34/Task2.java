@@ -1,26 +1,27 @@
-package com.syntax.class33;
+package com.syntax.class34;
 
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
-public class HW4 {
+public class Task2 {
     /*
-    Create a Person class with following private fields: name, lastName, age, salary.
-    Variables should be initialized through constructor.
-    Inside the class also create a method to print user details.
-    In Test Class create a Map that will store key in ascending order.
-    In that map store personId and a Person Object. Print each object details.
-     */
-    public static void main (String[] args) {
+Create a Person class with following private fields: name, lastName, age, salary.
+Variables should be initialized through constructor.
+Inside the class also create a method to print user details.
+In Test Class create a Map that will store key in ascending order.
+In that map store personId and a Person Object. Print each object details.
+ */
+    public static void main(String[] args) {
+
         Person meteObj= new Person("Metehan", "Kaia", 25, 190_000);
         Person burjuObj= new Person("Burju", "Kanliska", 55, 500_000);
         Person aishaObj= new Person("Aisha", "Gocha", 45, 200_000);
         Person bahaObj= new Person("Baha", "Kanliska", 77, 900_000);
         Person ruchiObj= new Person("Ruchi", "Kaia", 66, 800_000);
         Person aykaObj= new Person("Ayka", "Kanliska", 35, 200_000);
-        Map<Integer, Person> personMap= new TreeMap ();
+        Map<Integer, Person> personMap= new TreeMap();
         personMap.put(5, meteObj);
         personMap.put(3,burjuObj);
         personMap.put(2, aishaObj);
@@ -73,5 +74,7 @@ class Person{
         return salary;
     }
 }
+
+
 
 
