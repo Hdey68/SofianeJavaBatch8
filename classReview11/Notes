@@ -1,0 +1,88 @@
+Non-Access modifiers.
+
+We have four types of non-access modifiers in java
+static final abstract synchronized.
+There is no relationship between these modifiers and they are optional a nd represent
+separate concepts in java.
+
+static
+is keyword in java that help use define entities at class level like variables and methods
+we can also use to define classes using static keyword.
+
+final:
+is keyword in java that help us tell java that the entities are complete like variables methods and classes.
+If it is used with class then it prevents inheritance by not allowing you to create subclasses.
+If it is used with methods then it prevents overriding, you cannot override a final method in Java.
+If it is used with variables then they are treated as constant because you cannot change their value once assigned.
+
+abstract:
+Keyword is used to define something that is incomplete. we use this abstract key word with methods to give only the definition
+and use this with classes to make them abstract and not be able to create the objects of these classes.
+because they are incomplete.
+If we have any method of a class as abstract we need to declare the class as abstract. but we can have a class an abstract without any methods
+
+synchronized
+this keyword is used in multithreading to avoid race condition.
+
+Constructor:
+constructor is a block of code similar to method that we use when we want to control initialization of our fields
+Properties:
+1)The name must be same as the name of the class
+2) Constructors do not return anything
+3) We can use the access modifiers with the constructor.
+4) we cannot use the non access modifiers with he constructor.
+5) Do not participate in inheritance
+6) we can overload a constructor but we can not override why because participate in the inheritance.
+7)constructors are automatically called  when instance of the class is created.
+8) If there is no constructor in a class, then compiler automatically creates a default constructor.
+
+this keyword:
+this keyword can be used when we want to refer to this class' object
+when the parameter and the data fields have the same name, we use this keyword to refer to data field.
+to call constructor from another overloaded constructor in the same class.
+
+Inheritance:
+its a mechanism in java through which we can use the fields and methods from one class in another if they are
+not declared as private.
+inheritance is to provide the usability of code
+saves time, memory improves performance.
+
+Types:
+There are three types of inheritance in java.
+1) single multilevel hierarchical
+
+Single:
+when we inherit from only once class we call it as single level inheritance
+Example
+class Person{}
+class Student extends Person{
+}
+
+Multilevel
+we have multiple children from one class
+class Person(){
+}
+class Employee extends Person{
+}
+class Manager extends Employee{
+}
+
+Hierarchical
+hierarchical : when  various independent sub- classes extend from one parent class
+class Person(){
+}
+
+class Employee extends Person{
+}
+
+class Student extends Person{
+}
+
+Multiple Inheritance:
+No allowed using classes but we can have it using interfaces.
+
+Disadvantage:
+Coupling all the classes are tightly coupled change in parent class can affect all of
+the child classes and
+we may break the code
+2) if we have a long multilevel inheritance it may slow down the speed and performance will be impacted
