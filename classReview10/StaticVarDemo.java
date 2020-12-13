@@ -1,4 +1,4 @@
-package com.syntax.classReview07;
+package com.syntax.classReview10;
 
 class Student {
     static int totalStudentCount;

@@ -1,6 +1,7 @@
-package com.syntax.classReview06;
+package com.syntax.classReview08;
 
 public class Methods {
+
     public static void main(String[] args) {
 
         String name="Jack Plantin";

@@ -1,4 +1,4 @@
-package com.syntax.classReview07;
+package com.syntax.classReview10;
 
 public class LocalVarDemo {
     public static void main(String[] args) {

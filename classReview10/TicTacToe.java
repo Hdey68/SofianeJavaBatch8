@@ -1,4 +1,4 @@
-package com.syntax.classReview07;
+package com.syntax.classReview10;
 import java.util.Scanner;
 public class TicTacToe {
     // An 2D array to hold the values for our values

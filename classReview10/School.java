@@ -1,4 +1,4 @@
-package com.syntax.classReview07;
+package com.syntax.classReview10;
 
 public class School {
     Student[] students=new Student[Student.MAX_STUDENTS_ALLOWED];

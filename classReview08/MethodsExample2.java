@@ -1,4 +1,4 @@
-package com.syntax.classReview06;
+package com.syntax.classReview08;
 
 public class MethodsExample2 {
 

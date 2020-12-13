@@ -1,0 +1,24 @@
+Methods in java:
+Method is a block od code in java that performs some action and it
+may or may not return some data
+collection of statements that are grouped together to perform an operation
+Example:
+int add(int num1, int num2){
+return num1+num2;
+}
+Benefits:
+1) increases readability
+2) easy modification
+3) save memory
+4) Better organization
+When should we use the methods in our code:
+if more than 3 lines of code are being repeated create a method for them.
+
+How methods work:
+when ever methods are called all the statements inside those methods are executed.
+
+Calling a method.
+we can call non static methods by using the objects only
+Important points
+We can call the static methods and can use static fields from non static methods without objects or class name
+if we are in the same class, but we can not call non static methods from static methods
