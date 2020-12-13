@@ -20,10 +20,11 @@ public class HW5 {
         }
         System.out.println ( map );
         Set<Map.Entry<String, Integer>> set = map.entrySet ( );
+
         Iterator<Map.Entry<String, Integer>> iterator = set.iterator ( );
         while (iterator.hasNext ( )) {
             Map.Entry<String, Integer> element = iterator.next ( );
-            if (element.getValue ( ) >= 7) {
+            if (element.getValue ( ) > 7) {
                 iterator.remove ( );
             }
             }
