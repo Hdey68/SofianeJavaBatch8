@@ -19,7 +19,7 @@ public class ExcelFileHandlingDemo3 {
         Sheet sheet = workbook.getSheet ( "Sheet2" );//accessing the sheet
         Row row = sheet.getRow ( 1 );//access the row by index
         Cell cell = row.getCell ( 2 );//access the cell by index
-        cell.setCellValue ( "mahmut" );
+        cell.setCellValue ( "Mahmut" );
         System.out.println ( cell );//printing the results
         FileOutputStream fileOutputStream=new FileOutputStream ( path );//creating the connection to write the data
         workbook.write ( fileOutputStream );//writing the data
