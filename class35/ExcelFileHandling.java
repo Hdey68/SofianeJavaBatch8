@@ -19,8 +19,8 @@ public class ExcelFileHandling {
 
         XSSFWorkbook workbook=new XSSFWorkbook ( fileInputStream );
         Sheet sheet=workbook.getSheet ( "FirstPage" );
-        Row row=sheet.getRow ( 0 );
-        Cell cell=row.getCell ( 0 );
+        Row row=sheet.getRow ( 1 );
+        Cell cell=row.getCell ( 1 );
         System.out.println (cell.toString () );
 
 

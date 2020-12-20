@@ -1,0 +1,14 @@
+Super keyword
+overloading
+overriding
+polymorphism
+Super keyword:
+1) Super refers to the immediate parent class.
+2) its a reference variable which is used to refer immediate parent class object
+3) Using the supper we can access immediate parent class constructor/ fields and methods
+4) we use super with small brackets to invoke parent class constructor.
+5) when we we do not provide super keyword with small bracket Compiler will provide us one
+overloading:
+overloading is a mechanism in java that help us write methods/constructor
+with same name but with different parameters or different number of parameters
+or with different sequence of parameters
