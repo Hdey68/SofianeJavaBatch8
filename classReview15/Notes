@@ -1,0 +1,32 @@
+Polymorphism:
+polymorphism is the ability of the object to take many forms
+polymorphism - can be achieved in 2 ways  : overloading(static)/compile time,
+dynamic (overriding)/runtime
+For overriding to work we must have a relationship of inheritance between two classes.
+The things which do not play their part in inheritance can not be overridden
+private members, initializer block and constructors
+2) if a method is final we can not override it.
+3) if a class is final we can not override anything from that class because we can not
+inheritance from that class
+Must have for overriding
+1) method signature must be same i.e name of the method parameter sequence types and number of
+parameters
+2) Return type should be same
+3)we can not narrow the visibility for example if a method has a public access modifier we can make it private
+
+Final keyword:
+final is keyword in java that we can use with class field and method
+Final keyword with class:
+1) when used with class no other class can inherit from that class
+2) when used with variables can not change the value of variables
+3) when used with methods can't override that method
+Why we should make our class final?
+when ever we have a very long inheritance relationship or
+a very big class or we don want others to inherit and override our
+methods
+we declare that class as final.
+if we do not want anyone else to change/override behaviours of our methods
+we declare those methods as final
+variables if we don't want to change the values of a variables
+we declare them as final for example Gravitational acceleration
+or value of Pi
