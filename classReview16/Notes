@@ -1,0 +1,42 @@
+OOPS
+1)Inheritance
+2) Polymorphism
+3)Abstraction
+4) Encapsulation
+Abstraction:
+Process of hiding implementation details and showing only the important
+info to the user.
+Real Life Examples
+We use different different apps like whatsapp we just write the text and click on share
+button we don't care how that text is the converted in the form of signals and sent to
+the other party we just select the contact and write text click on send button text is
+sent
+2) Think of the car we don't care how the engine works we only care how to use steering gas paddle
+all of the internal details have been hidden from us.
+3) Other examples when we put food into the microwave we don't care how it works we just
+set the timer and the temperature.
+How to implement Abstraction in Java.
+1) Using Abstract classes
+2) Using Interfaces
+Why we need it.
+lets say we are building the building we know about the first 5 floors but we do not
+know how other floors will look like. we can start building and then implement or decide the
+remaining feature
+In java
+if you want to use the full benefit of the classes class inheritance and we want
+to provide the implementation details for some of the methods we should be going with
+abstract class
+Important rules:
+1) Private methods can not be used because they dop not participate in inheritance
+2) We can not declare the abstract methods as final
+3) Class must be abstract if we want properly follow the abstraction because that way
+we can bound the implementor for input and output
+4) in the abstract class we can have abstract and non abstract methods
+5) fi we have at least on abstract method our class must be declared abstract
+6) we can declare a class as abstract even we do not have any abstract methods
+-------------------------------------------------------------------------------
+Interfaces:
+Mechanism to achieve abstraction
+Interfaces are containers which set rules for other classes and interfaces
+when we don't know anything about the implementation of any method that we need
+go with interfaces
