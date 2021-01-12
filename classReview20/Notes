@@ -1,0 +1,7 @@
+FileHandling in Java:
+Reading and Writing the data to files is called file handling, we have 2 main classes
+FileInputStream and FileOutputStream that we use to handle files.
+Whenever we have to read the data from the file we use FileInputStream and
+whenever we have to write the data we use FileOutputStream.
+Properties files:
+Properties files contain the configuration data in the form of key and value pairs.

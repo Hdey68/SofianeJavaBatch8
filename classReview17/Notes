@@ -1,0 +1,20 @@
+Collections Frame work
+Its a set of classes and interfaces that help us store and manipulate
+data efficiently in computer's main memory.
+Why we should use collections frame instead of arrays and variables.
+variables can only store one value at a time
+Arrays are static data structures that can not change their size at runtime. Once we have declared
+an array we can not change its size. We do not have any built
+in methods on arrays to manipulate the data
+Collection framework
+1) Dynamic in nature can grow and shrink their size at runtime
+2) We have built in methods to manipulate the data
+
+Collections framework an custom classes
+if we are creating our own class and we want to utilize the full benefits of the collection
+frame we must override the equals hashcode and toString methods from Object class and we should
+implement the comparable interface
+
+Maps:
+they are separate from the collections framework they provide meaningful indexes and we
+can search the elements very quickly
